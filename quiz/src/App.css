@@ -1,0 +1,231 @@
+.total{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+  }
+  .press{
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgb(73, 183, 73);
+    color: white;
+    cursor: pointer;
+  }
+  *{
+    background-color: rgb(103,15,137);
+  }
+  
+  .table{
+    background-color: white;
+    height: 400px;
+    width: 970px;
+     position: relative; 
+    left: 20%;
+    margin-top: 100px; 
+    border-left: 5px solid rgb(207, 162, 249);
+  }
+  .address{
+    position: absolute;
+    top: 2%;
+    left: 45%;
+    background-color: white;
+  }
+  .serialno{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    background-color: white;
+  }
+  .ques{
+    position: absolute; 
+    top: 15%;
+    left: 35%; 
+    background-color: white;
+  }
+  .option1{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    background-color: white;
+    cursor: pointer;
+  }
+  .gap{
+    margin-right: 130px;
+    border: 1px solid white;
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 6px 0px 3px 0px;
+    background-color: rgb(34, 134, 234);
+    color: white;
+  
+  }
+  .option2{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    background-color: white;
+    cursor: pointer;
+  }
+  .option3{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    background-color: white;
+    cursor: pointer;
+  }
+  .b{
+    margin-right: 40px;
+    padding: 5px 20px;
+  }
+  .first{
+    background-color: rgb(95, 95, 247);
+    border: 1px solid rgb(95, 95, 247);
+    cursor: pointer;
+  }
+  .second{
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+  }
+  .third{
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  .one{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .two{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .three{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .four{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .result{
+      position: absolute;
+      top: 2%;
+      left: 37%;
+      background-color: white;
+  }
+  .score{
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    background-color: white;
+    color: blue;
+    font-size: 30px;
+  }
+  .page{
+    position: relative;
+    color: green;
+    bottom: 20%;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 600;
+  }
+  .find1,.find2,.find3,.find4{
+    display: flex;
+   background-color: white;
+  }
+  .num{
+  background-color: white;
+  }
+  .num1{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .num2{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .num3{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .num4{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    background-color: white;
+    font-weight: 700;
+  }
+  .end{
+    display: flex;
+    position: relative;
+    top: 95%;
+    justify-content: center;
+  }
+  .text1{
+    margin-right: 30px;
+    background-color: white;
+    border: 3px solid rgb(106, 106, 249);
+    color: rgb(106, 106, 249);
+    padding: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .text2{
+    background-color: white;
+    border: 3px solid green;
+    color: green;
+    padding: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .box{
+    background-color: white;
+    height: 400px;
+    width: 970px;
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
+    border-left: 5px solid rgb(207, 162, 249);
+    cursor: pointer;
+  }
+  .finish{
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 221, 221);
+    cursor: pointer;
+    padding: 10px;
+  }
